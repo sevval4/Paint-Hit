@@ -201,7 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 525792662652019890}
-  - component: {fileID: 7621562055449662911}
+  - component: {fileID: 8579637730832245201}
   m_Layer: 0
   m_Name: Round2
   m_TagString: circle
@@ -248,7 +248,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7621562055449662911
+--- !u!114 &8579637730832245201
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 525792662652019901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a671a23af4634f42b4d5ab9f1f9725e, type: 3}
+  m_Script: {fileID: 11500000, guid: ea9d9610db61e7448b236c256e5d5da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &638876565152364920

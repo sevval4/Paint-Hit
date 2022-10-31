@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Circle1 : MonoBehaviour
 {
-    private void Start()
+   
+    void Start()
     {
         iTween.MoveTo(base.gameObject, iTween.Hash(new object[]
         {
@@ -15,16 +16,16 @@ public class Circle1 : MonoBehaviour
             "time",
             0.2,
             "OnComplete",
-            "rotatecircle",
-
+            "RotateCirlce"
         }));
+    }
 
-    }
-    void rotatecircle()
+    void RotateCirlce()
     {
-        print("The Itween anim is is done");
+        print("The Itween anim is done");
     }
-    private void Update()
+   
+    void Update()
     {
         transform.Rotate(Vector3.up * Time.deltaTime * BallHandler.rotationSpeed);
     }

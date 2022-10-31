@@ -1434,7 +1434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5044652806519710375}
-  - component: {fileID: 5861800275170650864}
+  - component: {fileID: 7385850650382697999}
   m_Layer: 0
   m_Name: Round1
   m_TagString: circle
@@ -1481,7 +1481,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5861800275170650864
+--- !u!114 &7385850650382697999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

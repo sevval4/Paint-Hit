@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Circle3 : MonoBehaviour
 {
+ 
+    
     void Start()
     {
         iTween.MoveTo(base.gameObject, iTween.Hash(new object[]
@@ -15,13 +17,17 @@ public class Circle3 : MonoBehaviour
             "time",
             0.6,
             "OnComplete",
-            "rotatecircle",
-
+            "RotateCirlce"
        }));
+        
     }
 
     void Update()
     {
-        transform.Rotate(Vector3.down * Time.deltaTime * (BallHandler.rotationSpeed + 20));  
+        transform.Rotate(Vector3.down * Time.deltaTime * (BallHandler.rotationSpeed + 20));
     }
+
+ 
+
+
 }

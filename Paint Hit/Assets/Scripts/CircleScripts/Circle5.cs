@@ -8,7 +8,7 @@ public class Circle5 : MonoBehaviour
     void Start()
     {
         iTween.MoveTo(base.gameObject, iTween.Hash(new object[]
-        {
+       {
             "y",
             0,
             "easetype",
@@ -16,12 +16,12 @@ public class Circle5 : MonoBehaviour
             "time",
             0.6,
             "OnComplete",
-            "rotatecircle",
-
-        }));
+            "RotateCirlce"
+       }));
     }
 
-    void RotateCircle()
+
+    void RotateCirlce()
     {
         iTween.RotateBy(base.gameObject, iTween.Hash(new object[]
         {
@@ -37,5 +37,4 @@ public class Circle5 : MonoBehaviour
             1
         }));
     }
-
 }
